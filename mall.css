@@ -96,4 +96,16 @@ section {
 .logo{
     display:flex;
     justify-content:center;
+
+}
+.kontakter{
+    display:flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+.s{
+    width: 50%;
+}
+h1{
+    font-size: 300%;
 }
