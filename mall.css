@@ -82,9 +82,8 @@ section {
     flex-wrap:wrap;
     align-content:flex-start;
     justify-content: space-evenly;
-    gap:1em;
+    gap:2em;
     border-width: 10px;
-    border-color: red;
     width:100%;
     padding: 10px;
     background-color: lightblue;
@@ -100,11 +99,20 @@ section {
 }
 .kontakter{
     display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content:flex-start;
     justify-content: space-evenly;
     max-width: 100%;
+    background-color: lightblue;
+    padding-bottom:24.9em;
+    padding-top: 2em;
+
+    
 }
 .s{
     width: 50%;
+    
 }
 h1{
     font-size: 300%;
