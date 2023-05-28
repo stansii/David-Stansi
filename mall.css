@@ -72,7 +72,12 @@ section {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 64px);
+    font-size: 25px;
+    padding-left: 10px;
+    
 }
+
+
 .container{
     background-color: lightblue;
 }
