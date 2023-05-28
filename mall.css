@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-nav a {
+    color: #f6f7f8;
+    background:  #0404a8;
+    display: block;
+    height: 64px;
+    font-family; lato;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+
+#main-nav a:hover{
+    background: #180c85;
+}
