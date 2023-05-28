@@ -78,13 +78,22 @@ section {
 }
 .kontaktbox{
     display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-content:flex-start;
     justify-content: space-evenly;
+    gap:1em;
     border-width: 10px;
     border-color: red;
-    width:90%;
+    width:100%;
     padding: 10px;
+    background-color: lightblue;
 }
 .texxt{
     font-family:Arial, Helvetica, sans-serif ;
     font-size:400%;
+}
+.logo{
+    display:flex;
+    justify-content:center;
 }
