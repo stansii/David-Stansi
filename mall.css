@@ -21,3 +21,22 @@
 #main-nav a:hover{
     background: #180c85;
 }
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+.kontaktbox{
+    display:flex;
+    justify-content:center;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+.Stansi{
+    display:flex;
+    justify-content: center;
+    background-color:red;
+}
+.texxt{
+    display:flex;
+    justify-content: ;
+}
