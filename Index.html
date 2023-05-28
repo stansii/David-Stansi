@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
-<link rel="stylesheet" href="mall.css" />
+
 
 <head>
 		<meta charset="utf-8"/>
@@ -9,6 +9,7 @@
 		initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible"
 		content=""ie=edge">
+		<link rel="stylesheet" href="mall.css">
 		<title>SD CV</title>
 </head>
 	
@@ -16,11 +17,13 @@
 	<nav id="main-nav">
 		<ul>
 			<li>
-				<a href="#">Hem</a>
+				<a class="active" href="Index.html">Start</a>
 			</li>
 			<li>
-				<a href="#">Om oss</a>
-				<ul>
+				<a href=>Om oss
+					<span class="arrow">&#x25BC;</span>
+				</a>
+				<ul class="submenu">
 					<li>
 						<a href="David.html">David</a>
 					</li>
@@ -28,6 +31,9 @@
 						<a href="Stansi.html">Stansii</a>
 					</li>
 				</ul>
+				<li>
+					<a href="#">Kontakt</a>
+				</li>
 			</li>
 		</ul>
 	</nav>
