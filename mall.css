@@ -76,3 +76,15 @@ section {
 .container{
     background-color: lightblue;
 }
+.kontaktbox{
+    display:flex;
+    justify-content: space-evenly;
+    border-width: 10px;
+    border-color: red;
+    width:90%;
+    padding: 10px;
+}
+.texxt{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size:400%;
+}
