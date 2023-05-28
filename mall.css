@@ -67,7 +67,7 @@ h1 {
 }
 
 section {
-    background: #f2f4f3;
+    background-color: lightblue;
     display: flex;
     align-items: center;
     justify-content: center;
