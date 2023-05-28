@@ -21,7 +21,6 @@
 #main-nav a:hover{
     background: #180c85;
 }
-<<<<<<< HEAD
 
 #main-nav ul{
     list-style: none;
@@ -73,24 +72,4 @@ section {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 64px);
-=======
-.container{
-    display:flex;
-    justify-content: space-between;
-}
-.kontaktbox{
-    display:flex;
-    justify-content:center;
-    border-radius: 10px;
-    background-color: lightblue;
-}
-.Stansi{
-    display:flex;
-    justify-content: center;
-    background-color:red;
-}
-.texxt{
-    display:flex;
-    justify-content: ;
->>>>>>> 7afb2bd035b0f371863b9ee5a752d585674c6eca
 }
