@@ -73,3 +73,6 @@ section {
     justify-content: center;
     height: calc(100vh - 64px);
 }
+.container{
+    background-color: lightblue;
+}
